@@ -18,7 +18,10 @@ these descriptions may not be 100% accurate since i might've forgot some things
 - `webpack.config.js`
 	- configuration file for webpack (responsible for preparing files to be loaded into a browser)
 	- if the names of template files like `index.html` are changed, this file needs to be updated accordingly
-- `package.json`, `package-lock.json` = node.js configuration file
+- `package.json` 
+	- node.js configuration file
+	- determines the name of the project
+	- `package-lock.json` is auto-generated based on this file
 - `.babelrc` = config file for Babel (javascript compiler)
 - `src/index.html` = template HTML file that React code will be inserted into
 - `src/index.js` = React code to be inserted
